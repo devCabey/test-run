@@ -8,7 +8,7 @@ const OverviewCard = ({ title, value }) => {
         <h3 className='text-lg my-1'>{title}</h3>
         <h1 className='font-medium text-2xl'>{value}</h1>
       </div>
-      <h3 className='flex items-center justify-start gap-2 h-12 text-sm'>
+      <h3 className='flex items-center justify-start gap-2 h-12 text-sm cursor-default'>
         View Details <FiArrowRight />
       </h3>
     </div>
