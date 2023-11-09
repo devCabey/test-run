@@ -2,6 +2,7 @@ import React from 'react';
 import OverviewCard from './components/OverviewCard';
 import Search from '../../components/Search';
 import OptionComponent from './components/OptionComponent';
+import TableComponent from './components/Table';
 
 export const Dashboard = () => {
   return (
@@ -16,13 +17,15 @@ export const Dashboard = () => {
           <OverviewCard title='Orders' value='60' />
         </div>
         {/* table */}
-        <div className='w-full my-5 border bg-white rounded-md h-96'>
+        <div className='w-full my-5 border bg-white rounded-md '>
           <div className='w-full  h-16 border-b  flex-between px-5 relative'>
             <Search sx='w-[350px] h-8 rounded-md' />
             <OptionComponent />
           </div>
           {/* table */}
-          <div></div>
+          <div className='w-full'>
+            <TableComponent />
+          </div>
         </div>
       </div>
     </div>
