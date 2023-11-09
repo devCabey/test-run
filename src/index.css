@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,
+html{
+  background-color:#F7FAFC;
+  color:#374151;
+}
+
+.flex-between{
+  @apply flex items-center justify-between;
+}
+
+.flex-center{
+  @apply flex items-center justify-center;
+}
